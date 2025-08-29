@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuvraj Jalan - Network Security Engineer Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+    body {
+      font-family: "Inter", sans-serif;
+      scroll-behavior: smooth;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+    }
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .certification-link {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+    a.certification-link:hover {
+      color: #1e40af;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="bg-white shadow fixed w-full z-50">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="text-blue-700 font-bold text-xl">Yuvraj Jalan</div>
+        <div class="hidden md:flex space-x-8 text-gray-700 font-medium">
+          <a href="#about" class="hover:text-blue-700">About</a>
+          <a href="#certifications" class="hover:text-blue-700">Certifications</a>
+          <a href="#projects" class="hover:text-blue-700">Projects</a>
+          <a href="#contact" class="hover:text-blue-700">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="gradient-bg text-white pt-32 pb-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
+        Mastering the Art of Connectivity: The Versatile Networking Pro
+      </h1>
+      <p class="text-2xl font-semibold mb-8">Yuvraj Jalan</p>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-8 border-b-2 border-blue-700 inline-block pb-2">
+      About Me
+    </h2>
+    <p class="text-lg leading-relaxed max-w-3xl">
+      Dynamic professional committed to thriving in environments that prioritize excellence and growth. Seeking a role that not only provides complete job satisfaction but also fosters continuous self-development. Proven track record of delivering results while maintaining integrity and dedication to truthfulness in all professional endeavors.
+    </p>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="max-w-5xl mx-auto px-6 py-16 bg-gray-50 rounded-lg shadow-md mb-16">
+    <h2 class="text-3xl font-bold mb-8 border-b-2 border-blue-700 inline-block pb-2">
+      Certifications
+    </h2>
+    <div class="space-y-6 text-lg max-w-4xl">
+      <p>
+        <strong>System and Network Security on Coursera!</strong> Check out my certificate: 
+        <a href="https://lnkd.in/gmAifCta" target="_blank" rel="noopener" class="certification-link">https://lnkd.in/gmAifCta</a>
+      </p>
+      <p>
+        Gain knowledge on system penetration testing, hacking methodologies, various password attacks, and tools used for these attacks.
+      </p>
+      <p>
+        Understand different types of malware (viruses, worms, trojans), how they infect systems, and learn defense strategies against these threats.
+      </p>
+      <p>
+        Learn about network sniffing, ARP poisoning, firewalls, Intrusion Detection Systems (IDS), and honeypots, including their types.
+      </p>
+      <p>
+        Explore IoT architecture, technologies, communication models, and understand various IoT attacks and hacking methodologies to protect IoT systems.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-12 border-b-2 border-blue-700 inline-block pb-2">
+      Projects
+    </h2>
+
+    <!-- Project 1 -->
+    <article class="project-card bg-white rounded-lg shadow-md p-8 mb-12">
+      <h3 class="text-2xl font-semibold mb-4 text-blue-700">
+        Blockchain validates routing with high accuracy, mitigating hijacking risk
+      </h3>
+      <ul class="list-disc list-inside space-y-2 mb-6 text-gray-700">
+        <li>Explore blockchain’s potential for securing BGP routing.</li>
+        <li>Immutable route validation</li>
+        <li>Improved hijack detection (95% accuracy)</li>
+        <li>Moderate latency trade-off (80ms vs 50ms)</li>
+        <li>Immutable ledger</li>
+        <li>Decentralized verification</li>
+        <li>Smart contract automation</li>
+      </ul>
+      <p class="mb-4 text-gray-800 font-semibold">Key Benefits:</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <li>Cryptographic route validation reduces hijacking incidents by over 90%. Fraud prevention saves banks millions annually in prevented cyber attacks.</li>
+        <li>Automated route optimization reduces latency by 30-40%. Smart contracts eliminate manual BGP configuration errors saving 450+ hours monthly.</li>
+        <li>Reduction in transit costs (15-20%) and elimination of middleman fees through decentralized settlement produces ROI within 18 months.</li>
+      </ul>
+      <p class="mb-4 text-gray-800 font-semibold">Technical Highlights:</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <li>Low - Distributed validation</li>
+        <li>Automated cryptographic proofs</li>
+        <li>Low (Direct peer-to-peer)</li>
+        <li>Days (API integration)</li>
+        <li>Immutable transaction logs</li>
+      </ul>
+      <p class="mb-4 text-gray-800 font-semibold">Integration Components:</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <li>Blockchain validator nodes co-located at bank data centers</li>
+        <li>Smart contract-based routing policies (written in Solidity)</li>
+        <li>Lightweight client-side cryptographic verification</li>
+        <li>API gateway for legacy banking systems integration</li>
+        <li>Continuously updated reputation scoring for AS peers</li>
+      </ul>
+      <p class="mb-4 text-gray-800 font-semibold">Migration Path:</p>
+      <ol class="list-decimal list-inside space-y-2 text-gray-700">
+        <li>Hybrid Deployment: Run both traditional and blockchain BGP during transition (6-9 months)</li>
+        <li>Critical Route Protection: Prioritize financial transaction routes first (SSAE 18 compliant)</li>
+        <li>Full Adoption: Complete sunset of traditional BGP after performance validation</li>
+      </ol>
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card bg-white rounded-lg shadow-md p-8">
+      <h3 class="text-2xl font-semibold mb-4 text-blue-700">
+        The Quantum Financial System (QFS)
+      </h3>
+      <p class="mb-4 text-gray-700">
+        An innovative approach integrating quantum cryptography to enhance security in financial transactions. It aims to eliminate the traditional banking model, focusing on a decentralized, asset-backed structure.
+      </p>
+      <p class="mb-4 font-semibold text-gray-800">Key Features:</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <li>100% Security: Ensures financial security and authenticity through a distributed ledger. Users maintain their own security ID for transactions.</li>
+        <li>Asset Tokens: Transactions are represented by asset-backed tokens including gold and other assets, facilitating a stable value exchange.</li>
+        <li>Accessibility: Available 24/7 with total internet access, providing a sovereign status for account holders.</li>
+        <li>Total Transparency: All transactions are 100% trackable, ensuring accountability.</li>
+      </ul>
+      <p class="mb-4 font-semibold text-gray-800">Benefits of Quantum Cryptography:</p>
+      <ul class="list-disc list-inside space-y-2 text-gray-700 mb-6">
+        <li>Enhances security for financial transactions, especially for online banking and electronic payments.</li>
+        <li>Utilizes Quantum Key Distribution (QKD) protocols to encrypt and decrypt financial data, making it challenging for hackers to compromise sensitive information.</li>
+      </ul>
+      <p class="mb-4 font-semibold text-gray-800">Future of Banking:</p>
+      <p class="mb-6 text-gray-700">
+        QFS proposes a shift from traditional banking, where fiat currency will gradually migrate to a system based on asset-backed currencies. Financial institutions will evolve, focusing on transparency and security, effectively rendering outdated systems redundant.
+      </p>
+      <p class="font-semibold text-gray-800">Conclusion:</p>
+      <p class="text-gray-700">
+        The Quantum Financial System represents a transformative step towards a secure, efficient, and accountable financial environment through the application of cutting-edge quantum technology.
+      </p>
+    </article>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-6 py-16 bg-gray-50 rounded-lg shadow-md mb-20">
+    <h2 class="text-3xl font-bold mb-8 border-b-2 border-blue-700 inline-block pb-2">
+      Contact Info
+    </h2>
+    <div class="space-y-6 text-lg text-gray-700 max-w-3xl">
+      <p>
+        <strong>Your Profile:</strong>
+        <a href="https://linkedin.com/in/yuvraj-jalan-3968a51b4" target="_blank" rel="noopener" class="text-blue-700 underline hover:text-blue-900">
+          linkedin.com/in/yuvraj-jalan-3968a51b4
+        </a>
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:yuvrajjalan404@gmail.com" class="text-blue-700 underline hover:text-blue-900">
+          yuvrajjalan404@gmail.com
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-gray-200 py-8 text-center text-gray-500 text-sm">
+    &copy; 2024 Yuvraj Jalan. All rights reserved.
+  </footer>
+</body>
+</html>
